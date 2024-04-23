@@ -18,30 +18,35 @@ export default function Footers() {
             <p>JOIN OUR LIST</p>
             <form>
               <label>
-                <input type="email"placeholder="Enter-Email" />
+                <input type="email" placeholder="Enter-Email" />
               </label>
               <button type="button">&#8594;</button>
             </form>
           </div>
           <div className="footer-contact-us">
             <p>CONTACT WITH US </p>
-            <p style={{color:'white', fontSize:'18px'}}>+91 96172-44330</p>
+            <p style={{ color: "white", fontSize: "18px" }}>+91 96172-44330</p>
             <div className="f-social-logos">
-              <a href="">  <img src={facebook} /></a>
+              <a href="">
+                <img src={facebook} />
+              </a>
             </div>
             <div className="f-social-logos">
-              <a href=""><img src={instagram} /></a>
+              <a href="">
+                <img src={instagram} />
+              </a>
             </div>
             <div className="f-social-logos">
-              <a href="">   <img src={twitter} /></a>
+              <a href="">
+                <img src={twitter} />
+              </a>
             </div>
             <div className="f-social-logos">
-              <a href=""> <img src={youtube} style={{width:'30px',height:'30px'}} /></a>
+              <a href="">
+                <img src={youtube} style={{ width: "30px", height: "30px" }} />
+              </a>
             </div>
           </div>
-          {/* <div className="admin-btn">
-            <button id="admin-btn" type="button"><a href="/adminpage">ADMIN</a></button>
-          </div> */}
         </div>
 
         <div className="f-details">

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useEffect, useState } from "react";
 import "./Upcommingprojects.css";
@@ -6,7 +5,13 @@ import upcommingimg from "../images/contact.jpg";
 import vidoes from "../videos/sitevideo.mp4";
 import Footers from "./Footers";
 import Swiper from "swiper";
-import sliderimg from "../images/slider.jpg";
+import sliderimg from "../images/siteimgs/Picture1.jpg";
+import sliderimg2 from "../images/siteimgs/Picture2.jpg";
+import sliderimg3 from "../images/siteimgs/Picture3.jpg";
+import sliderimg4 from "../images/siteimgs/Picture4.jpg";
+import sliderimg5 from "../images/siteimgs/Picture5.jpg";
+import sliderimg6 from "../images/siteimgs/Picture6.jpg";
+import Header from "./Header";
 function Upcommingprojects() {
   // --------------------Google firebase setup----------------------
 
@@ -99,8 +104,8 @@ function Upcommingprojects() {
   return (
     <>
       <div>
-        <div>
-          <img className="upcomming-bg" src={upcommingimg} />
+        <div className="upcomming-bg">
+          <img src={upcommingimg} />
         </div>
         <div className="upcomming-heading">
           <p>
@@ -109,8 +114,6 @@ function Upcommingprojects() {
           </p>
         </div>
 
-
-        
         <div className="upcomminc-corner">
           <div className="corner-container">
             <div className=" des-heading">
@@ -152,7 +155,7 @@ function Upcommingprojects() {
           </div>
         </div>
 
-        <div className="upcomming-slider-container">
+        <div className="upcomming-slider-container slider-container">
           {/* slider to be inserted */}
           <p className="upcomming-slider-heading">
             Site <i>Pictures</i>
@@ -167,22 +170,27 @@ function Upcommingprojects() {
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img className="slider-img" src={sliderimg2} />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img className="slider-img" src={sliderimg3} />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img className="slider-img" src={sliderimg4} />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img className="slider-img" src={sliderimg5} />
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <div className="card">
+                    <img className="slider-img" src={sliderimg6} />
                   </div>
                 </div>
               </div>
@@ -192,7 +200,54 @@ function Upcommingprojects() {
             </div>
           </div>
         </div>
-
+        <div className="slider-mobile">
+          <p className="slider-heading-mobile">Site Pictures</p>
+          <div id="carouselExample" class="carousel slide">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={sliderimg} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg2} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg3} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg4} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg5} className="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <div className="slider-buttons">
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span clclassNamess="visually-hidden"></span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="notcommint-img" style={{ border: "0" }}>
           <div className="u-imgs">
             <iframe

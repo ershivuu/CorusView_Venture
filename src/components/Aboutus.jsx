@@ -11,69 +11,59 @@ import Footers from "../components/Footers";
 function Aboutus() {
   return (
     <>
-      <div className="slider">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active ">
-              <img
-                class="d-block w-100 my-imgs"
-                src={slider1}
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item ">
-              <img
-                class="d-block w-100 my-imgs"
-                src={slider2}
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item ">
-              <img
-                class="d-block w-100 my-imgs"
-                src={slider3}
-                alt="Third slide"
-              />
+      <div id="carouselExample" class="carousel slide">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={slider1} className="d-block w-100" alt="..." />
+            <div className="blur-div">
+              <p>
+                About <br /> Us
+              </p>
             </div>
           </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div className="carousel-item">
+            <img src={slider2} className="d-block w-100" alt="..." />
+            <div className="blur-div">
+              <p>
+                About <br /> Us
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <img src={slider3} className="d-block w-100" alt="..." />
+            <div className="blur-div">
+              <p>
+                About <br /> Us
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="abt-heading">
-        <p>
-          About <br />
-          <i>us</i>
-        </p>
+        <div className="slider-buttons">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span clclassNamess="visually-hidden"></span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
 
       <div className="abt-nav-2">
@@ -82,12 +72,12 @@ function Aboutus() {
         <a href="#llp-vision">Vision</a>
         <a href="">Resources </a>
       </div>
-      <div className="abt-llp">
-        <div className="abt-llp-para">
+      <div className="about-us">
+        <div className="content">
           <p>
-            <p className="abt-llp-heading">
-              About<i> Corusview Venture LLP</i>
-            </p>
+            About <br /> Corusview <br /> Venture LLP
+          </p>
+          <p>
             Corusview Venture LLP is a real estate firm dedicated to raising the
             bar for excellence in the sector. We take great pride in our
             constant dedication to quality, creativity, and client happiness.
@@ -99,10 +89,18 @@ function Aboutus() {
             projects.
           </p>
         </div>
-        <div welcome-imgs>
-          <img id="img7" src={img1} />
-          <img id="img8" src={img2} />
-          <img id="img9" src={img2} />
+        <div className="imgs">
+          <div className="big-img">
+            <img src={img1} alt="" />
+          </div>
+          <div className="small-imgs">
+            <div style={{ marginBottom: "18px" }}>
+              <img src={img2} alt="" />
+            </div>
+            <div>
+              <img src={img3} alt="" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="llp-mission" id="llp-missions">
@@ -126,9 +124,7 @@ function Aboutus() {
           </p>
         </div>
       </div>
-
       {/* -------------------------------------------------- */}
-
       <div className="llp-vision" id="llp-vision">
         <div className="vision-heading">
           <p>

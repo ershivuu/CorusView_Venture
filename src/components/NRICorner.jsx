@@ -49,10 +49,8 @@ function NRICorner() {
         </div>
         <div className="nri-heading">
           <p>
-            <span>"</span>
             <br />
             Global <br /> Dreams, <br /> Local <br /> Homes. <br />
-            <span>"</span>
           </p>
         </div>
       </div>
@@ -102,7 +100,7 @@ function NRICorner() {
             <input
               type="email"
               id="email"
-              name="email"
+              name="number"
               value={formData.email}
               onChange={handleInputChange}
               placeholder="Email"
@@ -121,7 +119,7 @@ function NRICorner() {
             />
           </label>
           <br />
-          <button type="submit" id="sent-btn">
+          <button type="submit" className="sent-btn">
             Submit
           </button>
         </form>

@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import bg from "../images/background.jpg";
 import img1 from "../animatedimgs/1.jpg";
 import img2 from "../animatedimgs/2.jpg";
-import img3 from "../animatedimgs/3.jpg"
+import img3 from "../animatedimgs/3.jpg";
 import sliderimg from "../images/siteimgs/Picture1.jpg";
 import sliderimg2 from "../images/siteimgs/Picture2.jpg";
 import sliderimg3 from "../images/siteimgs/Picture3.jpg";
@@ -12,6 +13,7 @@ import sliderimg6 from "../images/siteimgs/Picture6.jpg";
 import "./Home.css";
 import Swiper from "swiper";
 import Footers from "./Footers";
+// import "swiper/swiper-bundle.css";
 
 export default function Home() {
   useEffect(() => {
@@ -68,17 +70,14 @@ export default function Home() {
     <>
       <div>
         <div>
-          {/* background image is fixed herre*/}
           <img className="bg-img" src={bg} alt="bg-img" />
         </div>
-        <div className="h-heading">{/* <p>Dummy Heading content</p> */}</div>
+        <div className="h-heading"></div>
 
-        <div className="welcome-llp">
-          <div className="welcome-llp-para">
+        <div className="welcome">
+          <div className="welcome-content">
+            <p>Welcome to the VENTURE LLP experience</p>
             <p>
-              <p className="welcome-llp-heading">
-                Welcome to the <i>VENTURE LLP</i> experience
-              </p>
               Corusview Venture LLP is a real estate firm dedicated to raising
               the bar for excellence in the sector. We take great pride in our
               constant dedication to quality, creativity, and client happiness.
@@ -89,17 +88,22 @@ export default function Home() {
               team of seasoned professionals and extensive portfolio of
               successful projects.
             </p>
-            <div>
-              <button type="button" id="view-btn">
-                <a href="/aboutus" style={{color:'black', textDecoration:'none'}}>View About us</a>
-              
-              </button>
-            </div>
+            <button>
+              <Link to="/aboutus">View About US</Link>
+            </button>
           </div>
-          <div welcome-imgs>
-            <img id="img1" src={img1} />
-            <img id="img2" src={img2} />
-            <img id="img3" src={img3} />
+          <div className="imgs">
+            <div className="big-img">
+              <img src={img1} alt="" />
+            </div>
+            <div className="small-imgs">
+              <div style={{ marginBottom: "18px" }}>
+                <img src={img2} alt="" />
+              </div>
+              <div>
+                <img src={img3} alt="" />
+              </div>
+            </div>
           </div>
         </div>
 
@@ -111,7 +115,7 @@ export default function Home() {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg}/>
+                    <img className="slider-img" src={sliderimg} />
                   </div>
                 </div>
                 <div className="swiper-slide">
@@ -142,35 +146,92 @@ export default function Home() {
               </div>
               <div className="swiper-button-next"></div>
               <div className="swiper-button-prev"></div>
-              <div className="swiper-pagination"></div>
+              {/* <div className="swiper-pagination"></div> */}
             </div>
           </div>
           <button type="button" className="gallery-btn">
-          <a href="/gallery" style={{color:'black', textDecoration:'none'}}>View Gallery</a>
+            <Link
+              to="/gallery"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              {" "}
+              View Gallery
+            </Link>
           </button>
         </div>
-
-        {/*copied code for the below imgs allignment  */}
-        <div className="welcome2-llp">
-          <div welcome2-imgs>
-            <img id="img4" src={img1} />
-            <img id="img5" src={img2} />
-            <img id="img6" src={img3} />
-          </div>
-          <div className="welcome2-llp-para">
-            <p>
-              <span className="welcome2-coma" id="coma-1">"</span> <br />
-              
-              You and team went above and beyond! Thank y'all so much for the
-              commitment to excellence- the results speak for themselves.
-              <br />
-              <span className="welcome2-coma">"</span>
-            </p>
-            <div>
-              <button type="button" id="testimonial-btn">
-                View Testimonial
+        <div className="slider-mobile">
+          <p className="slider-heading-mobile">Explore Our Venture</p>
+          <div id="carouselExample" class="carousel slide">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src={sliderimg} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg2} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg3} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg4} className="d-block w-100" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src={sliderimg5} className="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <div className="slider-buttons">
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span clclassNamess="visually-hidden"></span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
               </button>
             </div>
+          </div>
+        </div>
+        <div className="welcome">
+          <div className="imgs">
+            <div className="big-img">
+              <img src={img1} alt="" />
+            </div>
+            <div className="small-imgs">
+              <div style={{ marginBottom: "18px" }}>
+                <img src={img2} alt="" />
+              </div>
+              <div>
+                <img src={img3} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="testimonial-content">
+            <p>
+              <span>"</span>
+              You and team went above and beyond! Thank y'all so much for the
+              commitment to excellence- the results speak for themselves.
+              <span>"</span>
+            </p>
+
+            <button>
+              <Link to="/upcomming-projects">View Testimonial</Link>
+            </button>
           </div>
         </div>
       </div>
