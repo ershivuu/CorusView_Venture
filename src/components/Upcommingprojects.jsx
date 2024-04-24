@@ -231,7 +231,7 @@ function Upcommingprojects() {
                   className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span clclassNamess="visually-hidden"></span>
+                <span className="visually-hidden"></span>
               </button>
               <button
                 className="carousel-control-next"

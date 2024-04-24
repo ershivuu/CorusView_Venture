@@ -235,7 +235,7 @@
   height: 200px;
   border: 3px solid white;
 }
-.welcome-content p:nth-child(1) {
+.welcome-content h1:nth-child(1) {
   font-family: "Times New Roman", Times, serif;
   font-size: 61px;
   line-height: 1;
@@ -267,7 +267,7 @@
   .slider-container {
     display: none;
   }
-  .welcome-content p:nth-child(1) {
+  .welcome-content h1:nth-child(1) {
     font-family: "Times New Roman", Times, serif;
     font-size: 30px;
     line-height: 1;

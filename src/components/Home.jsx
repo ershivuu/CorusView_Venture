@@ -76,7 +76,7 @@ export default function Home() {
 
         <div className="welcome">
           <div className="welcome-content">
-            <p>Welcome to the VENTURE LLP experience</p>
+            <h1>Welcome to the VENTURE LLP experience</h1>
             <p>
               Corusview Venture LLP is a real estate firm dedicated to raising
               the bar for excellence in the sector. We take great pride in our
@@ -188,7 +188,7 @@ export default function Home() {
                   className="carousel-control-prev-icon"
                   aria-hidden="true"
                 ></span>
-                <span clclassNamess="visually-hidden"></span>
+                <span className="visually-hidden"></span>
               </button>
               <button
                 className="carousel-control-next"
