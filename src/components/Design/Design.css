@@ -1,8 +1,14 @@
 .welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-block: 50px;
 }
 .testimonial-content {
@@ -11,9 +17,14 @@
   padding: 10px;
 }
 .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 10px;
 }
 .big-img img {
@@ -41,6 +52,7 @@
   background-color: transparent;
   border-radius: 10px;
   padding-block: 5px;
+  border: 2px solid black;
 }
 .testimonial-content button a {
   color: black;

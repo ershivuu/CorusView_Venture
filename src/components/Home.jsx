@@ -144,9 +144,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-button-next"></div>
-              <div className="swiper-button-prev"></div>
-              {/* <div className="swiper-pagination"></div> */}
+              {/* <div className="swiper-button-next"></div>
+              <div className="swiper-button-prev"></div> */}
             </div>
           </div>
           <button type="button" className="gallery-btn">
@@ -154,7 +153,6 @@ export default function Home() {
               to="/gallery"
               style={{ color: "black", textDecoration: "none" }}
             >
-              {" "}
               View Gallery
             </Link>
           </button>
@@ -206,6 +204,18 @@ export default function Home() {
               </button>
             </div>
           </div>
+          <button
+            type="button"
+            className="gallery-btn"
+            style={{ marginTop: "50px" }}
+          >
+            <Link
+              to="/gallery"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              View Gallery
+            </Link>
+          </button>
         </div>
         <div className="welcome">
           <div className="imgs">

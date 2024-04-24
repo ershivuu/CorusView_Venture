@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NRICorner.css";
 import Footers from "./Footers";
-import nriimg from "../images/contact.jpg";
+import nriimg from "../animatedimgs/5.jpg";
 
 function NRICorner() {
   const [formData, setFormData] = useState({
@@ -44,7 +44,7 @@ function NRICorner() {
   return (
     <>
       <div>
-        <div>
+        {/* <div>
           <img className="nri-bg" src={nriimg} />
         </div>
         <div className="nri-heading">
@@ -52,6 +52,19 @@ function NRICorner() {
             <br />
             Global <br /> Dreams, <br /> Local <br /> Homes. <br />
           </p>
+        </div> */}
+        <div className="cover">
+          <div className="cover-img">
+            <img src={nriimg} alt="" />
+          </div>
+          <div className="cover-heading">
+            <i>
+              <p>
+                <br />
+                Global <br /> Dreams, <br /> Local <br /> Homes. <br />
+              </p>
+            </i>
+          </div>
         </div>
       </div>
       <div className="abt-corner">
@@ -100,7 +113,7 @@ function NRICorner() {
             <input
               type="email"
               id="email"
-              name="number"
+              name="email"
               value={formData.email}
               onChange={handleInputChange}
               placeholder="Email"

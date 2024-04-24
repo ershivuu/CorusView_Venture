@@ -11,6 +11,7 @@
   height: auto;
   width: 100%;
   position: relative;
+  max-height: 700px;
 }
 .upcomming-heading {
   position: relative;
@@ -30,6 +31,7 @@
   padding-right: 12%;
   font-family: "Times New Roman";
 }
+
 .upcomming-heading span {
   font-style: italic;
 }
@@ -381,10 +383,7 @@ input::placeholder {
 /*-----------------------slider css ends------------------------------ */
 @media screen and (max-width: 768px) {
   .upcomming-heading {
-    padding-bottom: 13%;
-    margin-top: -60%;
-    padding-top: 31%;
-    text-align: center;
+    display: none;
   }
   .des-heading {
     margin-top: 5%;
@@ -455,6 +454,9 @@ input::placeholder {
     margin-top: -60%;
     padding-top: 31%;
     text-align: center;
+  }
+  .upcomming-heading {
+    display: none;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: portrait) {

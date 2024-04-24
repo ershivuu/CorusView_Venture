@@ -7,6 +7,11 @@ import instagram from "../images/instagram.png";
 import youtube from "../images/youtube.png";
 
 export default function Footers() {
+  const [showPlaceholder, setShowPlaceholder] = useState(true);
+
+  const handleClick = () => {
+    setShowPlaceholder(false);
+  };
   return (
     <>
       <div>
@@ -18,21 +23,45 @@ export default function Footers() {
             <p>JOIN OUR LIST</p>
             <form>
               <label>
-                <input type="email" placeholder="Enter-Email" />
+                {showPlaceholder ? (
+                  <input
+                    type="email"
+                    placeholder="Enter-Email"
+                    onClick={handleClick}
+                  />
+                ) : (
+                  <input type="email" />
+                )}
               </label>
-              <button type="button">&#8594;</button>
+              <button type="submit">&#8594;</button>
             </form>
           </div>
           <div className="footer-contact-us">
             <p>CONTACT WITH US </p>
-            <p style={{ color: "white", fontSize: "18px" }}>+91 96172-44330</p>
+            <p
+              style={{
+                color: "white",
+                textDecoration: "none",
+                fontSize: "18px",
+              }}
+            >
+              <a
+                href="tel:+919617244330"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                +91 96172-44330
+              </a>
+            </p>
             <div className="f-social-logos">
               <a href="">
                 <img src={facebook} />
               </a>
             </div>
             <div className="f-social-logos">
-              <a href="">
+              <a
+                href="https://www.instagram.com/corusviewventure?igsh=MXZvd2c1Z251Y2p6eg=="
+                target="_blank"
+              >
                 <img src={instagram} />
               </a>
             </div>

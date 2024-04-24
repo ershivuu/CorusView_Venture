@@ -6,11 +6,11 @@
 */
 
 .nri-bg {
-  background-size: cover;
   background-repeat: no-repeat;
   height: auto;
   width: 100%;
   position: relative;
+  max-height: 800px;
 }
 .nri-heading {
   position: relative;
@@ -120,7 +120,7 @@ input::placeholder {
   border: none;
   text-align: center;
   margin-right: -52%;
-  width: 80px;
+  padding: 5px 20px 5px 20px;
   background-color: #88c128;
   font-size: 20px;
   border-radius: 10px;
@@ -131,13 +131,9 @@ input::placeholder {
 .nri-contact-form input:focus {
   outline: none;
 }
-
-/* For smaller screens */
 @media screen and (max-width: 767px) {
   .nri-heading {
-    padding-bottom: 8%;
-    margin-top: -60%;
-    padding-top: 18%;
+    display: none;
   }
   .corner-head p {
     font-style: italic;
@@ -172,6 +168,9 @@ input::placeholder {
   }
   .nri-heading {
     padding-bottom: 18%;
+  }
+  .nri-heading {
+    display: none;
   }
 }
 @media screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./Upcommingprojects.css";
-import upcommingimg from "../images/contact.jpg";
+import upcommingimg from "../animatedimgs/4.jpg";
 import vidoes from "../videos/sitevideo.mp4";
 import Footers from "./Footers";
 import Swiper from "swiper";
@@ -104,14 +104,16 @@ function Upcommingprojects() {
   return (
     <>
       <div>
-        <div className="upcomming-bg">
-          <img src={upcommingimg} />
-        </div>
-        <div className="upcomming-heading">
-          <p>
-            Upcomming <br />
-            <span>Projects</span>
-          </p>
+        <div className="cover">
+          <div className="cover-img">
+            <img src={upcommingimg} alt="" />
+          </div>
+          <div className="cover-heading">
+            <p>
+              Upcomming <br />
+              <span>Projects</span>
+            </p>
+          </div>
         </div>
 
         <div className="upcomminc-corner">
@@ -156,7 +158,6 @@ function Upcommingprojects() {
         </div>
 
         <div className="upcomming-slider-container slider-container">
-          {/* slider to be inserted */}
           <p className="upcomming-slider-heading">
             Site <i>Pictures</i>
           </p>
@@ -194,9 +195,8 @@ function Upcommingprojects() {
                   </div>
                 </div>
               </div>
-              <div className="swiper-button-next"></div>
-              <div className="swiper-button-prev"></div>
-              <div className="swiper-pagination"></div>
+              {/* <div className="swiper-button-next"></div>
+              <div className="swiper-button-prev"></div> */}
             </div>
           </div>
         </div>

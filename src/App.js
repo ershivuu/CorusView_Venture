@@ -28,6 +28,7 @@ function App() {
             element={<Upcommingprojects />}
           ></Route>
           <Route exact path="/adminpage" element={<Adminpanel />}></Route>
+          <Route exact path="/design" element={<Design />}></Route>
         </Routes>
       </Main>
     </>

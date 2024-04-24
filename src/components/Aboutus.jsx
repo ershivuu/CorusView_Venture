@@ -1,8 +1,8 @@
 import React from "react";
 import "./Aboutus.css";
-import slider1 from "../images/slider4.jpg";
-import slider2 from "../images/slider5.jpg";
-import slider3 from "../images/slider6.jpg";
+import slider1 from "../animatedimgs/2.jpg";
+import slider2 from "../animatedimgs/3.jpg";
+import slider3 from "../animatedimgs/4.jpg";
 import img1 from "../images/home1.jpg";
 import img2 from "../images/home2.jpg";
 import img3 from "../images/home3.jpg";
@@ -14,7 +14,7 @@ function Aboutus() {
       <div id="carouselExample" class="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slider1} className="d-block w-100" alt="..." />
+            <img src={slider2} className="d-block w-100" alt="..." />
             <div className="blur-div">
               <p>
                 About <br /> Us
@@ -22,7 +22,7 @@ function Aboutus() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={slider2} className="d-block w-100" alt="..." />
+            <img src={slider1} className="d-block w-100" alt="..." />
             <div className="blur-div">
               <p>
                 About <br /> Us
@@ -67,12 +67,12 @@ function Aboutus() {
       </div>
 
       <div className="abt-nav-2">
-        <a href="">Overview</a>
+        <a href="#aboutus">About US</a>
         <a href="#llp-missions">Mission</a>
         <a href="#llp-vision">Vision</a>
-        <a href="">Resources </a>
+        {/* <a href="">Resources </a> */}
       </div>
-      <div className="about-us">
+      <div className="about-us" id="aboutus">
         <div className="content">
           <p>
             About <br /> Corusview <br /> Venture LLP

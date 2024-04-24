@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .c-bgimg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +33,7 @@
   border-radius: 10px;
   text-align: center;
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -36,14 +43,14 @@
 .contact-venture-llp {
   position: relative;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .contact-venture-llp div {
   padding: 50px;
@@ -76,7 +83,7 @@
 }
 .social-logos p {
   color: #88c128;
-  font-size: 3vw;  
+  font-size: 3vw;
   font-weight: 400;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;

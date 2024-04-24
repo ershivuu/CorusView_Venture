@@ -10,12 +10,12 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #101802;
   border-top: 1px solid white;
   color: white;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -29,7 +29,7 @@
   text-align: center;
   color: white;
 }
-.f-email-form{
+.f-email-form {
   margin-bottom: 20px;
 }
 .f-email-form P {
@@ -84,7 +84,6 @@
 }
 
 .f-social-logos {
-
   display: inline;
   margin: 5px;
 }
@@ -100,24 +99,24 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #101802;
   border-top: 1px solid white;
   color: white;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-align: center;
 }
-#admin-btn{
+#admin-btn {
   background-color: transparent;
-  border:2px solid white;
+  border: 2px solid white;
   padding: 5px;
   width: 100px;
 }
-#admin-btn a{
+#admin-btn a {
   color: white;
   font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   letter-spacing: 1.5px;
   text-decoration: none;
 }
@@ -127,10 +126,10 @@
   .Footer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -149,10 +148,10 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .f-email-form input{
+  .f-email-form input {
     width: 150px;
   }
-  .f-email-form{
-width: 400px;    
+  .f-email-form {
+    width: 400px;
   }
 }

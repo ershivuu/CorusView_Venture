@@ -6,11 +6,13 @@
 .medi-logo {
   width: 200px;
   height: 60px;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
 .bg-light {
   background-color: black !important;
+  padding-top: 20px;
 }
 
 .navbar-light {
