@@ -23,7 +23,7 @@ function Header() {
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="/">
-              <img src={logo} className="medi-logo" alt="medi-logo" />
+              <img src={logo} className="medi-logo" alt="corusview venture" />
             </a>
             <button
               className="navbar-toggler"
@@ -65,29 +65,17 @@ function Header() {
                 </li>
 
                 <li className="nav-item">
-                  <Link
-                    to="/nricorner"
-                    className="nav-link"
-                    onClick={closeNav}
-                  >
+                  <Link to="/nricorner" className="nav-link" onClick={closeNav}>
                     NRI CORNER
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    to="/gallery"
-                    className="nav-link"
-                    onClick={closeNav}
-                  >
+                  <Link to="/gallery" className="nav-link" onClick={closeNav}>
                     GALLERY
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
-                    to="/contactus"
-                    className="nav-link"
-                    onClick={closeNav}
-                  >
+                  <Link to="/contactus" className="nav-link" onClick={closeNav}>
                     CONTACT
                   </Link>
                 </li>

@@ -106,7 +106,7 @@ function Upcommingprojects() {
       <div>
         <div className="cover">
           <div className="cover-img">
-            <img src={upcommingimg} alt="" />
+            <img src={upcommingimg} alt="siddhraj sites" />
           </div>
           <div className="cover-heading">
             <p>
@@ -166,32 +166,56 @@ function Upcommingprojects() {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg}
+                      alt="siddhraj sites"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg2} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg2}
+                      alt="siddhraj sites"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg3} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg3}
+                      alt="siddhraj sites"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg4} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg4}
+                      alt="siddhraj sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg5} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg5}
+                      alt="siddhraj sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg6} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg6}
+                      alt="siddhraj sites in indore"
+                    />
                   </div>
                 </div>
               </div>
@@ -205,19 +229,39 @@ function Upcommingprojects() {
           <div id="carouselExample" class="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={sliderimg} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg}
+                  className="d-block w-100"
+                  alt="siddhraj sites in indore"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg2} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg2}
+                  className="d-block w-100"
+                  alt="siddhraj sites in indore"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg3} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg3}
+                  className="d-block w-100"
+                  alt="siddhraj sites in indore"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg4} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg4}
+                  className="d-block w-100"
+                  alt="siddhraj sites in indore"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg5} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg5}
+                  className="d-block w-100"
+                  alt="siddhraj sites in indore"
+                />
               </div>
             </div>
             <div className="slider-buttons">

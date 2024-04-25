@@ -17,7 +17,7 @@ export default function Footers() {
       <div>
         <div className="footer">
           <div className="f-logo">
-            <img src={logo} />
+            <img src={logo} alt="corusviewventure" />
           </div>
           <div className="f-email-form">
             <p>JOIN OUR LIST</p>
@@ -37,7 +37,7 @@ export default function Footers() {
             </form>
           </div>
           <div className="footer-contact-us">
-            <p>CONTACT WITH US </p>
+            <p>CONTACT US </p>
             <p
               style={{
                 color: "white",

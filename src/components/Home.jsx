@@ -70,7 +70,7 @@ export default function Home() {
     <>
       <div>
         <div>
-          <img className="bg-img" src={bg} alt="bg-img" />
+          <img className="bg-img" src={bg} alt="siddhraj paradise" />
         </div>
         <div className="h-heading"></div>
 
@@ -94,14 +94,14 @@ export default function Home() {
           </div>
           <div className="imgs">
             <div className="big-img">
-              <img src={img1} alt="" />
+              <img src={img1} alt="siddhraj paradise" />
             </div>
             <div className="small-imgs">
               <div style={{ marginBottom: "18px" }}>
-                <img src={img2} alt="" />
+                <img src={img2} alt="siddhraj paradise" />
               </div>
               <div>
-                <img src={img3} alt="" />
+                <img src={img3} alt="siddhraj paradise" />
               </div>
             </div>
           </div>
@@ -115,37 +115,59 @@ export default function Home() {
               <div className="swiper-wrapper">
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg}
+                      alt="siddhraj sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg2} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg2}
+                      alt="siddhraj sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg3} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg3}
+                      alt="sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg4} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg4}
+                      alt="sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg5} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg5}
+                      alt="sites in indore"
+                    />
                   </div>
                 </div>
                 <div className="swiper-slide">
                   <div className="card">
-                    <img className="slider-img" src={sliderimg6} />
+                    <img
+                      className="slider-img"
+                      src={sliderimg6}
+                      alt="sites in indore"
+                    />
                   </div>
                 </div>
               </div>
-              {/* <div className="swiper-button-next"></div>
-              <div className="swiper-button-prev"></div> */}
             </div>
           </div>
           <button type="button" className="gallery-btn">
@@ -162,19 +184,39 @@ export default function Home() {
           <div id="carouselExample" class="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={sliderimg} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg}
+                  className="d-block w-100"
+                  alt="corusview venture"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg2} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg2}
+                  className="d-block w-100"
+                  alt="corusview venture"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg3} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg3}
+                  className="d-block w-100"
+                  alt="corusview venture"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg4} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg4}
+                  className="d-block w-100"
+                  alt="corusview venture"
+                />
               </div>
               <div className="carousel-item">
-                <img src={sliderimg5} className="d-block w-100" alt="..." />
+                <img
+                  src={sliderimg5}
+                  className="d-block w-100"
+                  alt="corusview venture"
+                />
               </div>
             </div>
             <div className="slider-buttons">
@@ -220,14 +262,14 @@ export default function Home() {
         <div className="welcome">
           <div className="imgs">
             <div className="big-img">
-              <img src={img1} alt="" />
+              <img src={img1} alt="siddhraj paradise" />
             </div>
             <div className="small-imgs">
               <div style={{ marginBottom: "18px" }}>
-                <img src={img2} alt="" />
+                <img src={img2} alt="siddhraj paradise" />
               </div>
               <div>
-                <img src={img3} alt="" />
+                <img src={img3} alt="siddhraj paradise" />
               </div>
             </div>
           </div>

@@ -14,7 +14,11 @@ function Aboutus() {
       <div id="carouselExample" class="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={slider2} className="d-block w-100" alt="..." />
+            <img
+              src={slider2}
+              className="d-block w-100"
+              alt="siddhraj paradise"
+            />
             <div className="blur-div">
               <p>
                 About <br /> Us
@@ -22,7 +26,11 @@ function Aboutus() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={slider1} className="d-block w-100" alt="..." />
+            <img
+              src={slider1}
+              className="d-block w-100"
+              alt="siddhraj paradise"
+            />
             <div className="blur-div">
               <p>
                 About <br /> Us
@@ -30,7 +38,11 @@ function Aboutus() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={slider3} className="d-block w-100" alt="..." />
+            <img
+              src={slider3}
+              className="d-block w-100"
+              alt="siddhraj paradise"
+            />
             <div className="blur-div">
               <p>
                 About <br /> Us
@@ -91,14 +103,14 @@ function Aboutus() {
         </div>
         <div className="imgs">
           <div className="big-img">
-            <img src={img1} alt="" />
+            <img src={img1} alt="corusview venture" />
           </div>
           <div className="small-imgs">
             <div style={{ marginBottom: "18px" }}>
-              <img src={img2} alt="" />
+              <img src={img2} alt="corusview venture" />
             </div>
             <div>
-              <img src={img3} alt="" />
+              <img src={img3} alt="corusview venture" />
             </div>
           </div>
         </div>

@@ -46,7 +46,7 @@ function NRICorner() {
       <div>
         <div className="cover">
           <div className="cover-img">
-            <img src={nriimg} alt="" />
+            <img src={nriimg} alt="corusview venture" />
           </div>
           <div className="cover-heading">
             <i>
