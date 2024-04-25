@@ -44,15 +44,6 @@ function NRICorner() {
   return (
     <>
       <div>
-        {/* <div>
-          <img className="nri-bg" src={nriimg} />
-        </div>
-        <div className="nri-heading">
-          <p>
-            <br />
-            Global <br /> Dreams, <br /> Local <br /> Homes. <br />
-          </p>
-        </div> */}
         <div className="cover">
           <div className="cover-img">
             <img src={nriimg} alt="" />
@@ -76,10 +67,18 @@ function NRICorner() {
             </p>
           </div>
           <div className="col-6 corner-detail">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-            incidunt sint culpa a dignissimos corporis voluptatem, delectus
-            sequi quidem enim quae vero id quas doloremque odit dicta eum omnis
-            modi?
+            India is a central participant in the worldwide housing market.
+            Because of expanded urbanization, it has turned into a center point
+            for high-profile NRIs (Non-Occupant Indians) to investigate
+            different venture choices among private properties as it likewise
+            guarantees rewarding Profit from Speculation (return for money
+            invested) conceivable outcomes. Corusview venture Realty has
+            scratched its name in probably the greatest and most famous Indian
+            urban communities. Our vision with Address Of Goodness is to make
+            mindful lodging where you can encounter insightful residing. Aside
+            from building condition of craftsmanship structures with immaculate
+            idea and plan we likewise construct spaces that sustain
+            extraordinary recollections and lovely minutes.
           </div>
         </div>
       </div>
